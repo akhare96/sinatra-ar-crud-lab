@@ -1,0 +1,9 @@
+<h1> All articles listed below: <h1>
+
+<ol type = "1">
+<% @articles.each {|article| %>
+    <li>
+    <u> <%= article.title %> </u>
+    </li>
+<% } %>
+</ol>
